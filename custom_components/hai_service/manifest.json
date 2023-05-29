@@ -1,0 +1,11 @@
+{
+    "domain": "hai_service",
+    "name": "Home AI service",
+    "documentation": "",
+    "iot_class": "cloud_polling",
+    "version": "0.0.1",
+    "requirements": ["openai==0.27.4"],
+    "codeowners": [],
+    "dependencies": [],
+    "integration_type": "service"
+}

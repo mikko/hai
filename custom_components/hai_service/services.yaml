@@ -1,0 +1,31 @@
+prompt:
+  description: "AI at home:"
+  name: "We have AI at home"
+  fields:
+    prompt:
+      name: Prompt
+      description: Question for the AI
+      example: "Sitrep plz!"
+      required: true
+      selector:
+        text:
+add_calendar_event:
+  description: "Add a single calendar event with time and title"
+  name: "Add calendar event"
+  fields:
+    time:
+      name: Time
+      description: Start time of the event
+      example: "8:00"
+      required: true
+      selector:
+        text:
+    title:
+      name: Title
+      description: Event title
+      example: "Football practise"
+      required: true
+      selector:
+        text:
+clear_calendar_events:
+  name: "Clear calendar events"
